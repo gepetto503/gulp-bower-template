@@ -1,0 +1,24 @@
+.well {
+  display: flex;//flex parent
+  flex-direction: column;//main axis is horizontal
+  align-items: center;//this makes centered box not stretch out horizontally
+
+  //flex child
+  .centered-box {
+    // display: flex;
+    // flex-wrap: wrap;
+
+    #bike_form {
+      // width: 48%;
+    }
+
+    #map {
+      // width: 48%;
+    }
+
+    .i-stole-it {
+
+    }
+  }
+
+}
